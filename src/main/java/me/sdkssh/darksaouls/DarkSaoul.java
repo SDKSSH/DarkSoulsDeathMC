@@ -1,4 +1,10 @@
 package me.sdkssh.darksaouls;
 
-public class DarkSaoul {
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class DarkSaoul extends JavaPlugin {
+    @Override
+    public void onEnable() {
+        super.onEnable();
+    }
 }
