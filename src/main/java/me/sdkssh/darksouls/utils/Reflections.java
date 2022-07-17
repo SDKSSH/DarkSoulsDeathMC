@@ -1,4 +1,4 @@
-package me.sdkssh.darksaouls.utils;
+package me.sdkssh.darksouls.utils;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

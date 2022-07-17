@@ -1,11 +1,11 @@
-package me.sdkssh.darksaouls.title;
+package me.sdkssh.darksouls.title;
 
 import org.bukkit.entity.Player;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-import static me.sdkssh.darksaouls.utils.Reflections.*;
+import static me.sdkssh.darksouls.utils.Reflections.*;
 
 public class NMSTitle {
     public static void sendTitle(Player p, String title, int fdit, int st, int fdot){

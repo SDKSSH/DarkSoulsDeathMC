@@ -1,9 +1,9 @@
-package me.sdkssh.darksaouls;
+package me.sdkssh.darksouls;
 
-import me.sdkssh.darksaouls.events.DeathListener;
+import me.sdkssh.darksouls.events.DeathListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class DarkSaoul extends JavaPlugin {
+public class DarkSouls extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new DeathListener(), this);

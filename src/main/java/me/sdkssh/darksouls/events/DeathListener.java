@@ -1,6 +1,6 @@
-package me.sdkssh.darksaouls.events;
+package me.sdkssh.darksouls.events;
 
-import me.sdkssh.darksaouls.title.NMSTitle;
+import me.sdkssh.darksouls.title.NMSTitle;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
