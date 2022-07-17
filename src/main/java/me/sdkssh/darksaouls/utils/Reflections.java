@@ -1,6 +1,9 @@
 package me.sdkssh.darksaouls.utils;
 
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
+
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Field;
 import java.lang.reflect.Constructor;
@@ -198,6 +201,22 @@ public final class Reflections
         catch (Exception e) {
             e.printStackTrace();
             return null;
+        }
+    }
+
+    public static void sendPacket(Player p, Object pa){
+        try {
+            Object h = p.getClass().getMethod("getHandle").invoke(p);
+            Object pc = h.getClass().getField("playerConnection").get(h);
+            pc.getClass().getMethod("sendPacket", getMinecraftClass("Packet")).invoke(pc, pa);
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException(e);
+        } catch (InvocationTargetException e) {
+            throw new RuntimeException(e);
+        } catch (NoSuchMethodException e) {
+            throw new RuntimeException(e);
+        } catch (NoSuchFieldException e) {
+            throw new RuntimeException(e);
         }
     }
 
