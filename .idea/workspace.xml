@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="481e8cf9-86e6-45bb-86a0-567298132f8f" name="Changes" comment="Add DeathListener">
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/sdkssh/darksaouls/events/DeathListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/sdkssh/darksaouls/events/DeathListener.java" afterDir="false" />
+    <list default="true" id="481e8cf9-86e6-45bb-86a0-567298132f8f" name="Changes" comment="Respawn on death">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/sdkssh/darksaouls/utils/ReflectionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658050524724</updated>
-      <workItem from="1658050527539" duration="597000" />
+      <workItem from="1658050527539" duration="802000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <created>1658050747613</created>
@@ -84,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658051060888</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Respawn on death">
+      <created>1658051197194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658051197194</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +114,7 @@
     <MESSAGE value="Add dependencies" />
     <MESSAGE value="Extends DarkSaoul to JavaPlugin" />
     <MESSAGE value="Add DeathListener" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DeathListener" />
+    <MESSAGE value="Respawn on death" />
+    <option name="LAST_COMMIT_MESSAGE" value="Respawn on death" />
   </component>
 </project>
